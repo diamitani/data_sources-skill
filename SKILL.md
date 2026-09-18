@@ -1,3 +1,9 @@
+---
+name: data-sources
+description: >
+  All bash blocks start with: source ~/.claude/skills/maia-chatbot-analyst/scripts/env.sh Use this skill when working with data sources tasks or workflows.
+---
+
 # Maia Data Sources — Pull Recipes
 
 All bash blocks start with:
@@ -77,7 +83,7 @@ hs_post "/crm/v3/objects/meetings/search" '{
 ```
 Attribute to Maia by either (a) meeting associated to a Maia-sourced contact
 (walk `/crm/v4/objects/contacts/{id}/associations/meetings` for the §2 cohort — preferred),
-or (b) booking via the Maia meeting link `meetings.hubspot.com/{{COMPANY_NAME}}/{{COMPANY_NAME}}-eor-customer-agent`.
+or (b) booking via the Maia meeting link `meetings.hubspot.com/Enterprise Platform/Enterprise Platform-eor-customer-agent`.
 
 ## 4. Deals / Revenue / WSEs
 
